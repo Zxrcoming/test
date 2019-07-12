@@ -1,0 +1,2 @@
+lspci -nnk| grep -A2 0280
+options iwlwifi 11n_disable=1 added at /etc/modprobe.d/iwlwifi.conf
